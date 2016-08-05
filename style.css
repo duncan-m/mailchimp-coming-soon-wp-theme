@@ -1,0 +1,145 @@
+/*
+Theme Name: Fotos Under Construction
+Theme URI: http://WPMthemes.com/
+Author: WPMthemes
+Author URI: http://WPMthemes.com/
+Description: Fotos WEBsite under construction Responsive Wordpress Theme with Email subcription form
+Version: 1.0
+License: GNU General Public License
+License URI: license.txt
+Text Domain: fotos-under-construction
+Domain Path: /languages/
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+ Fotos Under Construction is based on Underscores http://underscores.me/, (C) 2012-2013 Automattic, Inc.
+
+Resetting and rebuilding styles have been helped along thanks to the fine work of
+Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
+along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+and Blueprint http://www.blueprintcss.org/
+*/
+
+/* Homepage styling */
+.logo a h1 {
+  color:#FFFFFF;
+  font-family:arial;
+  font-size:7em;
+  font-weight:700;
+  letter-spacing:-5px;
+}
+
+/* General */
+body {
+  color:#748081;
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:14px;
+  line-height:22px;
+}
+
+p {
+  padding-bottom: 10px;
+}
+strong, b {
+font-weight: bold;
+}
+
+li {
+  line-height:24px;
+}
+ul {
+    list-style-type: circle;
+  margin-left: 16px;
+}
+
+.page h1, h2, h3, h4 {
+  line-height:48px;
+}
+.page h1, h2, h3, h4, h5, h6 {
+  color:inherit;
+  font-family:inherit;
+  font-weight:normal;
+  line-height:24px;
+  margin:0;
+  text-rendering:optimizeLegibility;
+}
+.page h3 {
+  color:#00599D;
+  font-size:18px !important;
+  font-weight:500;
+  line-height:24px;
+}
+
+
+
+#header {
+    margin:35px;    
+}
+
+.page-template-full-width img {
+    width: auto;  
+    padding:10px;
+}
+
+.alignright {
+    float: right;
+}
+
+.page-template-full-width #content {
+    background: #fff none repeat scroll 0 0;
+    margin: 0 0 30px;
+    min-height: 500px;
+    padding: 4% 20%;
+}
+
+.page-template-full-width h1 {
+    text-align: center;
+    font-size: 3em;
+    clear:both;
+    color: #fff;
+}
+
+/* Contact form 7 styling */
+.wpcf7 {
+    width: 60%;
+    padding:0 195px !important;
+}
+
+div.wpcf7-mail-sent-ok {
+  border:2px solid #FFFFFF;
+  color:#FFFFFF;
+}
+
+input[type="email"] {
+  -webkit-appearance:none;
+  background:#FFFFFF;
+  border:none;
+  color:#D9D9D9;
+  font-family:"Open Sans", sans-serif;
+  font-size:20px;
+  font-weight:600;
+  margin:0;
+  outline:none;
+  padding:23px;
+  width:60%;
+}
+
+input[type="submit"] {
+  -webkit-appearance:none;
+  background:#FA9E27;
+  border:none;
+  border-radius:0;
+  color:#FFFFFF;
+  cursor:pointer;
+  font-family:"Open Sans", sans-serif;
+  font-size:20px;
+  font-weight:600;
+  margin:0;
+  outline:none;
+  padding:23px;
+  right:0;
+  transition:all 0.3s;
+  width:30%;
+}
