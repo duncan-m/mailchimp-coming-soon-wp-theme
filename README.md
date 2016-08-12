@@ -1,6 +1,8 @@
 # mailchimp-coming-soon-wp-theme
 Simple coming soon theme that has been adapted to work with Contact form 7 and Mailchimp. Adapted from "Fotos under construction" original author tags left in.
 
+Note: Not 100% finished, mobile & smartphone index templates need to be updated.
+
 Usage: Good for a landing page and single pages. No blog page.
 
 Requires:
